@@ -46,7 +46,7 @@ ul > li > a {
     margin-top: 90px;
     text-align: center;
 }
-button[type="submit"] {
+input[type="submit"] {
     text-transform: uppercase;
     background-color: #F1C40F;
     font-size: 16px;
@@ -56,7 +56,7 @@ button[type="submit"] {
     border-radius: 3px;
     cursor: pointer;
 }
-button:hover{
+input:hover{
     background-color: #ff8c00;
 }
 #features{
@@ -134,4 +134,9 @@ a.btn{
 a.btn:hover {
     background-color: #FF8C00;
     color:black;
+}
+@media only screen and (max-width: 640px) {
+    body{
+        background-color: lightblue;
+    }
 }
